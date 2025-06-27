@@ -1,0 +1,10 @@
+### create user
+
+POST http://localhost:8222/user/create
+Content-Type: application/json
+
+{
+  "fullname": "Praveen Ukkoji",
+  "email": "praveen@gmail.com",
+  "password": "dondon"
+}

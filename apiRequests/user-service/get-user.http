@@ -1,0 +1,4 @@
+### get user
+@id = e9622f5e-7866-43ca-9380-cf264be30235
+
+GET http://localhost:8222/user/{{id}}

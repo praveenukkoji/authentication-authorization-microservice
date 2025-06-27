@@ -1,0 +1,3 @@
+### get all user
+
+GET http://localhost:8222/user/all
