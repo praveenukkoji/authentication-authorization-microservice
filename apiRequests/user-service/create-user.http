@@ -2,6 +2,7 @@
 
 POST http://localhost:8222/user/create
 Content-Type: application/json
+Authorization: Bearer {{token}}
 
 {
   "fullname": "Praveen Ukkoji",

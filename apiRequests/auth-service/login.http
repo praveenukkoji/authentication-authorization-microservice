@@ -1,10 +1,10 @@
 ### login request
-POST http://localhost:8082/auth/login
+POST http://localhost:8222/auth/login
 Content-Type: application/json
 
 {
   "email": "testuser@test.com",
-  "password": "password1234"
+  "password": "password123"
 }
 
 > {% client.global.set("token", response.status === 200 ? response.body.token : ""); %}
